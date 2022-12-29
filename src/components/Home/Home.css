@@ -12,12 +12,6 @@
     rgba(0, 0, 0, 0.3) 30%,
     rgba(0, 0, 0, 0.4) 40%,
     rgba(0, 0, 0, 0.5) 50%,
-    rgba(0, 0, 0, 0.6) 60%
-  );
-}
-.container2 {
-  background: linear-gradient(
-    180deg,
     rgba(0, 0, 0, 0.6) 60%,
     rgba(0, 0, 0, 0.7) 70%,
     rgba(0, 0, 0, 0.8) 80%,
