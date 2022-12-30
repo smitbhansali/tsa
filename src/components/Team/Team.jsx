@@ -14,17 +14,17 @@ const Team = () => {
                 Meet The <br /> Team
             </div>
             <div className='container1 flex flex-wrap justify-center items-center font-sans p-3'>
-                <div className='w-1/4 m-10 flex flex-col justify-center items-center glassmorphism p-10 transition grayscale delay-200 hover:grayscale-0 duration-500'>
+                <div className='w-1/4 m-10 flex flex-col justify-center items-center glassmorphism p-5 transition grayscale delay-200 hover:grayscale-0 duration-500'>
                     <div>
                         <img src={avatar} alt="avatar" width={200} height={200} className='rounded-full ' />
                     </div>
-                    <div className='text-white text-3xl text-cyan-300 p-2' >
+                    <div className='text-white text-3xl text-cyan-300 p-1' >
                         Smit Bhansali
                     </div>
-                    <div className='text-white text-lg text-cyan-300 p-2' >
+                    <div className='text-white text-lg text-cyan-300 p-1' >
                         Developer
                     </div>
-                    <div className='text-center text-white text-sm text-cyan-300 p-2' >
+                    <div className='text-center text-white text-sm text-cyan-300 p-1' >
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus nam impedit vero ea. Ratione rerum dolorum alias, tenetur voluptatum eligendi? Vitae perspiciatis necessitatibus excepturi soluta! Eaque quo incidunt nihil adipisci.
                     </div>
                     <div className='p-2 flex justify-evenly items-center w-1/2'>
@@ -39,17 +39,17 @@ const Team = () => {
                         </a>
                     </div>
                 </div>
-                <div className='w-1/4 m-10 flex flex-col justify-center items-center glassmorphism p-10 transition grayscale delay-200 hover:grayscale-0 duration-500'>
+                <div className='w-1/4 m-10 flex flex-col justify-center items-center glassmorphism p-5 transition grayscale delay-200 hover:grayscale-0 duration-500'>
                     <div>
                         <img src={avatar} alt="avatar" width={200} height={200} className='rounded-full ' />
                     </div>
-                    <div className='text-white text-3xl text-cyan-300 p-2' >
+                    <div className='text-white text-3xl text-cyan-300 p-1' >
                         Smit Bhansali
                     </div>
-                    <div className='text-white text-lg text-cyan-300 p-2' >
+                    <div className='text-white text-lg text-cyan-300 p-1' >
                         Developer
                     </div>
-                    <div className='text-center text-white text-sm text-cyan-300 p-2' >
+                    <div className='text-center text-white text-sm text-cyan-300 p-1' >
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus nam impedit vero ea. Ratione rerum dolorum alias, tenetur voluptatum eligendi? Vitae perspiciatis necessitatibus excepturi soluta! Eaque quo incidunt nihil adipisci.
                     </div>
                     <div className='p-2 flex justify-evenly items-center w-1/2'>
@@ -64,17 +64,17 @@ const Team = () => {
                         </a>
                     </div>
                 </div>
-                <div className='w-1/4 m-10 flex flex-col justify-center items-center glassmorphism p-10 transition grayscale delay-200 hover:grayscale-0 duration-500'>
+                <div className='w-1/4 m-10 flex flex-col justify-center items-center glassmorphism p-5 transition grayscale delay-200 hover:grayscale-0 duration-500'>
                     <div>
                         <img src={avatar} alt="avatar" width={200} height={200} className='rounded-full ' />
                     </div>
-                    <div className='text-white text-3xl text-cyan-300 p-2' >
+                    <div className='text-white text-3xl text-cyan-300 p-1' >
                         Smit Bhansali
                     </div>
-                    <div className='text-white text-lg text-cyan-300 p-2' >
+                    <div className='text-white text-lg text-cyan-300 p-1' >
                         Developer
                     </div>
-                    <div className='text-center text-white text-sm text-cyan-300 p-2' >
+                    <div className='text-center text-white text-sm text-cyan-300 p-1' >
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus nam impedit vero ea. Ratione rerum dolorum alias, tenetur voluptatum eligendi? Vitae perspiciatis necessitatibus excepturi soluta! Eaque quo incidunt nihil adipisci.
                     </div>
                     <div className='p-2 flex justify-evenly items-center w-1/2'>
@@ -89,17 +89,17 @@ const Team = () => {
                         </a>
                     </div>
                 </div>
-                <div className='w-1/4 m-10 flex flex-col justify-center items-center glassmorphism p-10 transition grayscale delay-200 hover:grayscale-0 duration-500'>
+                <div className='w-1/4 m-10 flex flex-col justify-center items-center glassmorphism p-5 transition grayscale delay-200 hover:grayscale-0 duration-500'>
                     <div>
                         <img src={avatar} alt="avatar" width={200} height={200} className='rounded-full ' />
                     </div>
-                    <div className='text-white text-3xl text-cyan-300 p-2' >
+                    <div className='text-white text-3xl text-cyan-300 p-1' >
                         Smit Bhansali
                     </div>
-                    <div className='text-white text-lg text-cyan-300 p-2' >
+                    <div className='text-white text-lg text-cyan-300 p-1' >
                         Developer
                     </div>
-                    <div className='text-center text-white text-sm text-cyan-300 p-2' >
+                    <div className='text-center text-white text-sm text-cyan-300 p-1' >
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus nam impedit vero ea. Ratione rerum dolorum alias, tenetur voluptatum eligendi? Vitae perspiciatis necessitatibus excepturi soluta! Eaque quo incidunt nihil adipisci.
                     </div>
                     <div className='p-2 flex justify-evenly items-center w-1/2'>
@@ -114,17 +114,17 @@ const Team = () => {
                         </a>
                     </div>
                 </div>
-                <div className='w-1/4 m-10 flex flex-col justify-center items-center glassmorphism p-10 transition grayscale delay-200 hover:grayscale-0 duration-500'>
+                <div className='w-1/4 m-10 flex flex-col justify-center items-center glassmorphism p-5 transition grayscale delay-200 hover:grayscale-0 duration-500'>
                     <div>
                         <img src={avatar} alt="avatar" width={200} height={200} className='rounded-full ' />
                     </div>
-                    <div className='text-white text-3xl text-cyan-300 p-2' >
+                    <div className='text-white text-3xl text-cyan-300 p-1' >
                         Smit Bhansali
                     </div>
-                    <div className='text-white text-lg text-cyan-300 p-2' >
+                    <div className='text-white text-lg text-cyan-300 p-1' >
                         Developer
                     </div>
-                    <div className='text-center text-white text-sm text-cyan-300 p-2' >
+                    <div className='text-center text-white text-sm text-cyan-300 p-1' >
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus nam impedit vero ea. Ratione rerum dolorum alias, tenetur voluptatum eligendi? Vitae perspiciatis necessitatibus excepturi soluta! Eaque quo incidunt nihil adipisci.
                     </div>
                     <div className='p-2 flex justify-evenly items-center w-1/2'>

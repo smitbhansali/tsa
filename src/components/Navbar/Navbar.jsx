@@ -16,9 +16,6 @@ const Navbar = () => {
                     <Link to='/team'>Team</Link>
                 </div>
                 <div className='text-white text-xl m-5 cursor-pointer hover:text-cyan-300'>
-                    <Link to='/gallery'>Gallery</Link>
-                </div>
-                <div className='text-white text-xl m-5 cursor-pointer hover:text-cyan-300'>
                     <Link to='/login'>Login</Link>
                 </div>
                 <div className='text-white text-xl m-5 cursor-pointer hover:text-cyan-300'>
