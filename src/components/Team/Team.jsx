@@ -10,7 +10,7 @@ const Team = () => {
             <div className='w-full'>
                 <img src={blackhole} alt="blackhole" className='blackholeimage' />
             </div>
-            <div className='text-white text-9xl font-sans p-3 mb-48'>
+            <div className='text-white text-9xl font-sans p-3  mb-96 ml-20 mt-20'>
                 Meet The <br /> Team
             </div>
             <div className='container1 flex flex-wrap justify-center items-center font-sans p-3'>

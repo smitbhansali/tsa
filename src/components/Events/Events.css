@@ -28,3 +28,33 @@
     #000
   );
 }
+.animateImage {
+  animation: shift-to-left 0.7s linear;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes shift-to-left {
+  0% {
+    transform: translateX(350px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.animateText {
+  animation: fade-in 0.7s linear;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}

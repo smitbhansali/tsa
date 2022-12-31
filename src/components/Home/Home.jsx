@@ -1,26 +1,33 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import { useInView } from 'react-intersection-observer'
 import earth from '../../assets/earth.jpg'
 import './Home.css'
 
 const Home = () => {
+    const { ref: ref1, inView: isVisible1 } = useInView()
+    const { ref: ref2, inView: isVisible2 } = useInView()
     return (
         <div className='flex flex-col w-full'>
             <div className='w-full'>
                 <img src={earth} alt="earth" className='earthimage' />
             </div>
-            <div className='text-white text-9xl font-sans p-3 mb-48'>
+            <div className='text-white text-9xl font-sans p-3  mb-96 ml-20 mt-20'>
                 The<br /> Space<br /> Association
             </div>
-            <div className='container1 flex flex-col justify-start items-start text-white text-3xl font-sans p-3'>
-                <span className='pl-6'>What is the space association?</span>
-                <div className='text-white text-xl font-sans p-3 m-3 w-1/2'>
-                    It is very important for the customer to pay attention to the adipiscing process. Life will never be different. Or do they not know that the wise man will rebuke the inflexibility of the born, whence the result is that the blinded inventor will often be surprised?
+            <div ref={ref1} className="container1 flex flex-col justify-start items-start text-white text-3xl font-sans p-3 ml-20">
+                <div className={`${isVisible1 ? "animateContent1" : ""}`}>
+                    <span className='pl-6'>What is the space association?</span>
+                    <div className='text-white text-xl font-sans p-3 m-3 w-1/2'>
+                        It is very important for the customer to pay attention to the adipiscing process. Life will never be different. Or do they not know that the wise man will rebuke the inflexibility of the born, whence the result is that the blinded inventor will often be surprised?
+                    </div>
                 </div>
             </div>
-            <div className='bg-black flex flex-col justify-end items-end text-white text-3xl font-sans pt-40 p-3'>
-                <span className='pr-52'>What is the space association?</span>
-                <div className='text-white text-xl font-sans p-3 m-3 w-1/2'>
-                    It is very important for the customer to pay attention to the adipiscing process. Life will never be different. Or do they not know that the wise man will rebuke the inflexibility of the born, whence the result is that the blinded inventor will often be surprised?
+            <div className='bg-black'>
+                <div ref={ref2} className={`flex flex-col justify-end items-end text-white text-3xl font-sans pt-96 p-3 pr-20 ${isVisible2 ? "animateContent2" : ""}`}>
+                    <span className='pr-52'>What is the space association?</span>
+                    <div className='text-white text-xl font-sans p-3 m-3 w-1/2'>
+                        It is very important for the customer to pay attention to the adipiscing process. Life will never be different. Or do they not know that the wise man will rebuke the inflexibility of the born, whence the result is that the blinded inventor will often be surprised?
+                    </div>
                 </div>
             </div>
             <div className='flex flex-col justify-center items-center w-full bg-black pt-20'>
